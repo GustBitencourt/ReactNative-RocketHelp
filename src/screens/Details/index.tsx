@@ -120,13 +120,13 @@ export function Details() {
             title="Equipamento"
             description={`Patrimonio ${order.patrimony}`}
             icon={DesktopTower}
-            footer={order.when}
-          />
+            />
 
           <CardDetail
             title="Descrição do Problema"
             description={order.description}
             icon={Clipboard}
+            footer={order.when}
           />
 
           <CardDetail
