@@ -126,7 +126,7 @@ export function Details() {
             title="Descrição do Problema"
             description={order.description}
             icon={Clipboard}
-            footer={order.when}
+            footer={`Registrado em: ${order.when}`}
           />
 
           <CardDetail
